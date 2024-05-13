@@ -53,8 +53,8 @@ class AuditorAuditeeSeed extends Seeder
         ]);
         Auditor::create([
             'user_id' => 8,
-            'grup_auditor_id' => null,
-            'keanggotaan' => null,
+            'grup_auditor_id' => 2,
+            'keanggotaan' => 'ketua',
         ]);
         Auditor::create([
             'user_id' => 9,

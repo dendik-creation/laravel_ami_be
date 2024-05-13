@@ -16,27 +16,41 @@ class Dept_N_SubDeptSeed extends Seeder
     {
         Departemen::create([
             'kode' => 'DSG',
-            'ekstensi' => "12-A-01",
+            'ekstensi' => "121212",
             'unit_id' => 1,
             'nama_departemen' => "DESIGN"
         ]);
         Departemen::create([
             'kode' => "CS",
-            'ekstensi' => "12-A-02",
+            'ekstensi' => "121212",
             'unit_id' => 1,
             'nama_departemen' => "CS"
         ]);
         Departemen::create([
             'kode' => "SKT",
-            'ekstensi' => "12-B-01",
+            'ekstensi' => "121212",
             'unit_id' => 1,
             'nama_departemen' => "SEKERTARIAT"
         ]);
         Departemen::create([
             'kode' => "IT",
-            'ekstensi' => "12-C-03",
+            'ekstensi' => "121212",
             'unit_id' => 3,
             'nama_departemen' => "IT"
+        ]);
+
+        Departemen::create([
+            'kode' => "EDP",
+            'ekstensi' => "121212",
+            'unit_id' => 1,
+            'nama_departemen' => "EDP"
+        ]);
+
+        Departemen::create([
+            'kode' => "KLK",
+            'ekstensi' => "121212",
+            'unit_id' => 1,
+            'nama_departemen' => "KALKULASI"
         ]);
 
         SubDepartemen::create([

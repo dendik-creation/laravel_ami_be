@@ -61,7 +61,7 @@ class AuditeeController extends Controller
         $data = AuditNotYetResponded::collection(
             HeaderAudit::with('departemen.unit', 'iso', 'grup_auditor.auditor.user.departemen', 'detail_audit')
                 ->where('auditee_id', $auditee['id'])
-                ->where('is_responded', 0)
+                ->where('end_at', '>=', $now)->orWhere('is_responded', 0)
                 ->latest()
                 ->get(),
         );
