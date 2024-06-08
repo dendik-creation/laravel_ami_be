@@ -77,7 +77,7 @@ composer install
 3. Create a new MySQL database named 'vaksin-ulang'
 4. import database in database folder
 5. Copy .env.example file and rename to .env
-6. open the .env file and change DB_DATABASE value to 'vaksin-ulang'
+6. open the .env file and change DB_DATABASE value to [database_name]
 7. Run command
 
 ```
